@@ -1,3 +1,4 @@
+data/working.zip
 data/input/train-backup
 data/input/train/**/0
 data/input/train/**/1
@@ -11,5 +12,5 @@ data/input/test/**/2
 data/input/test/**/.zarray
 data/input/test/**/.zattrs
 data/input/test/**/.zgroup
-data/working/train-backup/overlay
-data/working/train-backup/test
+data/working/overlay
+data/working/test_results/tensorboard_logs
