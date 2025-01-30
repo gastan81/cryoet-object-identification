@@ -1,0 +1,40 @@
+{
+    "multiscales": [
+        {
+            "axes": [
+                {
+                    "name": "z",
+                    "type": "space",
+                    "unit": "angstrom"
+                },
+                {
+                    "name": "y",
+                    "type": "space",
+                    "unit": "angstrom"
+                },
+                {
+                    "name": "x",
+                    "type": "space",
+                    "unit": "angstrom"
+                }
+            ],
+            "datasets": [
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                10,
+                                10,
+                                10
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "0"
+                }
+            ],
+            "name": "/",
+            "version": "0.4"
+        }
+    ]
+}
