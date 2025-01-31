@@ -10,6 +10,7 @@
         "out_dir": "data/working/train_results",
         "classes": {
             "apo-ferritin": 1,
+            "beta-amylase": 2,
             "beta-galactosidase": 3,
             "ribosome": 4,
             "thyroglobulin": 5,
@@ -21,9 +22,9 @@
     "network_architecture": {
         "architecture": "res_unet",
         "layers": [
-            4,
-            8,
-            12
+            12,
+            16,
+            32
         ],
         "dropout_rate": 0.0
     },
@@ -31,8 +32,8 @@
         "n_class": 8,
         "dim_in": 72,
         "batch_size": 1,
-        "epochs": 2,
-        "steps_per_epoch": 2,
+        "epochs": 1,
+        "steps_per_epoch": 15,
         "steps_per_valid": 10,
         "num_sub_epoch": 1,
         "sample_size": 1,
@@ -40,7 +41,7 @@
         "class_weights": {
             "0": 1,
             "1": 1,
-            "2": 1,
+            "2": 0,
             "3": 2,
             "4": 1,
             "5": 2,
